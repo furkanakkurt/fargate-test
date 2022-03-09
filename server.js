@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 app.get('/health', (req, res) => {
 	res.status(200);
-	res.send('health');
+	res.send('healthy');
 })
 
 app.listen(8080, () => {
